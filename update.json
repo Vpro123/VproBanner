@@ -1,1 +1,9 @@
+{
+  "versionCode": 54,
+  "versionName": "R9",
+  "apkUrl": "https://github.com/Vpro123/VproBanner/releases/download/vpro-r9/VPro_GPS_R9_Android10-14_TEST.apk",
+  "sha256": "2b18ce9c173162fdf7d06ab4c6fab252751dc9f0a941015ae721f4efa2e0d592",
+  "size": 8078247,
+  "notes": "Nút gọn hơn; tìm khách sạn rồi lấy điểm đón/trả bằng token đã lưu; cập nhật trực tiếp từ GitHub."
+}
 
