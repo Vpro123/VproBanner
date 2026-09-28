@@ -1,8 +1,8 @@
 {
-  "versionCode": 55,
-  "versionName": "R10",
-  "apkUrl": "https://github.com/Vpro123/VproBanner/releases/download/vpro-updates/VPro_GPS_R10_Android10-14_TEST.apk",
-  "sha256": "ac732b8b015c751937844dade8501a03ae1f129b0cf519928089571a9cf4d4f8",
-  "size": 8078247,
-  "notes": "Cập nhật đơn giản: tự nhận APK mới, ghi chú tùy chọn, giao diện gọn hơn và hỗ trợ cài đè cùng mã phiên bản."
+  "versionCode": 56,
+  "versionName": "R11",
+  "apkUrl": "https://github.com/Vpro123/VproBanner/releases/download/vpro-updates/VPro_GPS_R11_Android10-14_TEST.apk",
+  "sha256": "d655aeb681a17e8df00f2efbcee58bf3a93c85ce9e185339c565d8c62eadd18f",
+  "size": 8086514,
+  "notes": "Nhận lần đăng APK mới dù đổi tên hoặc đăng lại cùng tệp. Thêm hộp thư thông báo và video YouTube; thu gọn phần chú thích A → B."
 }
