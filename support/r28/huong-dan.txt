@@ -1,0 +1,28 @@
+VPRO R28 — HƯỚNG DẪN NHANH
+
+1. Chưa được kích hoạt?
+Sao chép key trên màn hình kích hoạt và liên lạc VPro. Sau khi xác nhận, quá trình đồng bộ có thể mất khoảng 3–5 phút. Không gỡ app hoặc xóa dữ liệu để thử lại.
+
+2. Cấp quyền xong nhưng chưa vào?
+Kiểm tra vị trí chính xác, quyền nền theo Android, công tắc vị trí, pin và thông báo. App tự vào khi các bước cần thiết hoàn tất. Không cần quyền thay đổi cài đặt hệ thống.
+
+3. Lưu một điểm đang chọn?
+Chạm điểm trên Maps → Lưu tọa độ điểm này → đặt tên, sửa hoặc giữ vĩ độ/kinh độ → Lưu. Chỉ lưu vị trí và tên bạn nhập, không lưu hồ sơ tài xế.
+
+4. Tuyến nhiều điểm?
+Cài đặt → Tự di chuyển → thêm A, B, C… (tối đa 12 điểm). Chọn trên Maps hoặc tìm địa chỉ. Tốc độ thay đổi ngay khi đang chạy. Bấm Áp dụng để chuyển sang tuyến đã chọn.
+
+5. Lặp vòng?
+Bật Lặp đi/về đến khi dừng. App đi ngược lại cùng tuyến. Đây là mô phỏng, không dùng để chỉ đường xe thật trên đường một chiều.
+
+6. Mất kết nối Grab?
+Lỗi xác thực có thể cần cập nhật kết nối hợp lệ. Thử lại sau không bảo đảm phiên hết hạn tự được khôi phục. Địa điểm đón/trả không phải vị trí khách theo thời gian thực.
+
+7. VPro có biết điểm phát cuốc tốt nhất không?
+Không có dữ liệu xác thực về thuật toán phát cuốc, vị trí khách hay số cuốc theo thời gian thực. AI không bảo đảm giả GPS giúp nhận được cuốc.
+
+8. Liên hệ và quyền riêng tư?
+Mở Hỗ trợ dưới nút cập nhật → Liên hệ VPro. Chat riêng tách theo bản cài, cộng đồng cần được VPro duyệt. Tên máy và vị trí chỉ được gửi khi bạn bật chia sẻ, có thể tắt lại. Dịch vụ cần được VPro kết nối trước.
+
+9. Nâng cấp 300.000đ?
+Chỉ áp dụng khi VPro bật quy tắc và hồ sơ ngày gốc xác nhận key thuộc diện nâng cấp. Thiếu ngày không tự thu phí. VPro xác nhận giao dịch thực trong Admin; ảnh chuyển khoản không tự mở quyền. Bản cũ không bị xóa key vì bỏ qua nâng cấp.
