@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "topics": [
+    {
+      "id": "toc-do",
+      "title": "Đổi tốc độ khi tuyến đang chạy",
+      "keywords": "tốc độ,tăng tốc,giảm tốc,20 30 40,đang chạy,không dừng",
+      "answer": "Khi tuyến đang chạy, ngay trên bản đồ có thanh tốc độ. Bấm +10 hoặc −10 để đổi ngay. Ví dụ 20 → 30 → 40 km/h. Xe tiếp tục từ vị trí hiện tại.\nBấm vào số km/h để mở thanh kéo và các nút 20 / 30 / 40. Không cần bấm Áp dụng tuyến và không cần tắt GPS.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/toc-do__huong-dan.svg",
+          "caption": "Mô phỏng thao tác trong VPro R29"
+        }
+      ]
+    },
+    {
+      "id": "dung-tung-diem",
+      "title": "Đặt thời gian dừng ở A, B, C, D",
+      "keywords": "dừng tại,thời gian chờ,chờ tại,dừng bao lâu,nghỉ,đi tiếp,phút,giây",
+      "answer": "Chọn các điểm A, B, C… rồi bấm Dừng tại từng điểm. Nhập phút và giây; 0 nghĩa là đi tiếp ngay. Khi đến điểm, tốc độ về 0, đếm ngược rồi tự tiếp tục.\nTrong lúc chạy, bấm ô tốc độ → Dừng tại B/C… để sửa thời gian chờ. Nút Đi tiếp ngay bỏ phần chờ còn lại. Tạm dừng tại chỗ giữ nguyên cả thời gian chờ.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/dung-tung-diem__huong-dan.svg",
+          "caption": "Mô phỏng thao tác trong VPro R29"
+        }
+      ]
+    },
+    {
+      "id": "tao-tuyen",
+      "title": "Chọn tuyến nhiều điểm trên Maps",
+      "keywords": "chọn a b c d,lộ trình,tuyến,thêm điểm,địa chỉ,kml,maps",
+      "answer": "Mở bánh răng → Tự di chuyển. Thêm lần lượt A, B, C… bằng cách chạm trên Maps hoặc tìm địa chỉ. Kiểm tra tuyến, thời gian dừng và tốc độ, rồi bấm Chạy tuyến.\nMuốn thay các điểm khi đang chạy, sửa danh sách rồi Áp dụng tuyến. Chỉ thao tác này bắt đầu tuyến mới từ A; đổi tốc độ không bắt đầu lại. Lặp đi/về sẽ mô phỏng ngược cùng đường, không phải hướng dẫn lái xe thực tế.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__huong-dan.svg",
+          "caption": "Mô phỏng thao tác trong VPro R29"
+        }
+      ]
+    },
+    {
+      "id": "dung-gps",
+      "title": "Dừng GPS và lấy lại vị trí thực",
+      "keywords": "tắt gps,dừng gps,vị trí thật,vị trí thực,không về,đứng yên,định vị",
+      "answer": "Bấm nút Dừng hoặc bánh răng → Dừng GPS. App ngừng phát vị trí mô phỏng và yêu cầu một vị trí mới từ hệ thống.\nTrong lúc chờ, thông báo Chờ vị trí thực mới cho biết chưa có kết quả mới. Trong nhà hoặc khi tín hiệu yếu có thể cần thêm thời gian. Điểm bạn chọn và danh sách điểm đã lưu vẫn được giữ; chúng không phải dấu chấm vị trí thực.",
+      "media": []
+    },
+    {
+      "id": "luu-diem",
+      "title": "Lưu điểm, sửa tọa độ và chia sẻ",
+      "keywords": "lưu điểm,sao lưu,khôi phục,chia sẻ,sửa tọa độ,tên điểm",
+      "answer": "Chọn điểm trên bản đồ, bấm Lưu tọa độ điểm này. Đặt tên, kiểm tra hoặc sửa vĩ độ / kinh độ rồi Lưu.\nMở danh sách điểm để xem, chỉnh sửa, sao lưu, khôi phục và chia sẻ. Lưu tọa độ chỉ tạo một điểm tĩnh, không theo dõi người hoặc xe.",
+      "media": []
+    },
+    {
+      "id": "quyen",
+      "title": "Quyền vị trí, pin và thông báo",
+      "keywords": "cấp quyền,pin,vị trí luôn cho phép,cài lần đầu,kích hoạt",
+      "answer": "Sau khi kích hoạt, làm các bước cấp quyền mà VPro hiển thị. Chọn vị trí chính xác và quyền vị trí nền nếu Android có mục đó; cho phép pin không hạn chế. Quay về VPro, app tự vào khi các bước đã đủ.\nKhông phải mọi dòng máy đều có cùng tên menu. Nếu chưa vào được, kiểm tra trạng thái từng mục trên màn hình thiết lập.",
+      "media": []
+    }
+  ]
+}
