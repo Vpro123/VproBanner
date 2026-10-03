@@ -1,5 +1,5 @@
 {
   "name": "VPro",
-  "icon_url": "https://raw.githubusercontent.com/Vpro123/VproBanner/refs/heads/main/icon.png",
-  "launcher_template": "vpro_red"
+  "icon_url": "https://raw.githubusercontent.com/Vpro123/VproBanner/refs/heads/main/branding/vpro_gps.svg",
+  "launcher_template": "vpro_gps.svg"
 }
