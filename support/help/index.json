@@ -2,64 +2,479 @@
   "schema": 1,
   "topics": [
     {
-      "id": "toc-do",
-      "title": "Đổi tốc độ khi tuyến đang chạy",
-      "keywords": "tốc độ,tăng tốc,giảm tốc,20 30 40,đang chạy,không dừng",
-      "answer": "Khi tuyến đang chạy, ngay trên bản đồ có thanh tốc độ. Bấm +10 hoặc −10 để đổi ngay. Ví dụ 20 → 30 → 40 km/h. Xe tiếp tục từ vị trí hiện tại.\nBấm vào số km/h để mở thanh kéo và các nút 20 / 30 / 40. Không cần bấm Áp dụng tuyến và không cần tắt GPS.",
+      "id": "bat-dau",
+      "title": "01 · Bắt đầu: mở app và tìm hướng dẫn",
+      "keywords": "bắt đầu, mới cài, cách dùng, hướng dẫn, hình ảnh, video",
+      "answer": "BẠN LÀM THEO THỨ TỰ NÀY\n1. Kết nối Internet và mở VPro. Nếu hiện bảng kích hoạt, gửi mã trong bảng cho người quản lý VPro; không đăng mã vào nhóm công khai.\n2. Khi được kích hoạt, hoàn thành các quyền app yêu cầu. Xem bài “Quyền vị trí và pin” nếu chưa biết chọn mục nào.\n3. Tại bản đồ, chạm biểu tượng dấu hỏi bên phải → Hướng dẫn sử dụng.\n4. Nhập việc cần làm, ví dụ “lấy điểm đã lưu”, “nhập file”, “đổi tốc độ”, rồi bấm Tìm câu trả lời. Hoặc cuộn để chọn bài.\n5. Đọc các bước; kéo xuống phần hình/video bên dưới. Chạm nút phát trên video để xem ngay trong app.\n\nHình và video được quay từ VPro trên điện thoại. Tên điểm, tọa độ, mã riêng và những tệp không cần chọn đã được che trong tài liệu công khai. Vùng được che không phải lỗi của app.\n\nNếu chưa thấy bài mới, kết nối mạng, quay lại danh sách hướng dẫn và mở lại. Nội dung đã tải có thể còn đọc được khi mất mạng; hình/video chưa tải vẫn cần Internet.",
       "media": [
         {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/toc-do__huong-dan.svg",
-          "caption": "Mô phỏng thao tác trong VPro"
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/ho-tro__minh-hoa.jpg",
+          "caption": "Mục hướng dẫn, trợ lý và liên hệ trong VPro."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/ho-tro__thao-tac.mp4",
+          "caption": "Mục hướng dẫn, trợ lý và liên hệ trong VPro."
         }
       ]
     },
     {
-      "id": "dung-tung-diem",
-      "title": "Đặt thời gian dừng ở A, B, C, D",
-      "keywords": "dừng tại,thời gian chờ,chờ tại,dừng bao lâu,nghỉ,đi tiếp,phút,giây",
-      "answer": "Chọn các điểm A, B, C… rồi bấm Dừng tại từng điểm. Nhập phút và giây; 0 nghĩa là đi tiếp ngay. Khi đến điểm, tốc độ về 0, đếm ngược rồi tự tiếp tục.\nTrong lúc chạy, bấm ô tốc độ → Dừng tại B/C… để sửa thời gian chờ. Nút Đi tiếp ngay bỏ phần chờ còn lại. Tạm dừng tại chỗ giữ nguyên cả thời gian chờ.",
+      "id": "ban-do",
+      "title": "02 · Nhận biết các biểu tượng trên bản đồ",
+      "keywords": "biểu tượng, icon, nút, bản đồ, thùng rác, màn hình chính",
+      "answer": "BÊN TRÁI, TỪ TRÊN XUỐNG\n• Phong bì: mở hộp thư thông báo.\n• Bánh răng: cài đặt GPS, tuyến đường, quyền và các mục bổ sung.\n• Thùng rác: xóa dấu đang hiển thị trên bản đồ. Đây không phải nút xóa toàn bộ danh sách điểm đã lưu.\n• Thư mục có ghim: mở Điểm đã lưu.\n• Đĩa mềm kèm bút: lưu một điểm.\n\nBÊN PHẢI\n• Kính lúp: tìm địa điểm trên Maps hoặc điểm đón/trả.\n• Mũi tên xuống: kiểm tra bản cập nhật.\n• Dấu hỏi: hướng dẫn, trợ lý và liên hệ VPro.\n• Nhóm người: cộng đồng.\n\nBA NÚT DƯỚI CÙNG\n• Người giơ tay: load điểm đón/trả quanh vùng bản đồ đang xem.\n• Tam giác Play: bật GPS mô phỏng. Hình vuông Stop màu vàng: dừng hoặc bắt đầu quay về, tùy cài đặt.\n• Ô tô: bật/tắt lớp xe trên bản đồ.\n\nKéo bản đồ để xem vùng khác; dùng +/− để phóng to/thu nhỏ. Nút tâm ngắm của Maps đưa bản đồ về vị trí mà hệ thống đang báo. Khi đang mô phỏng, vị trí đó có thể là vị trí mô phỏng, không phải vị trí thật.",
       "media": [
         {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/dung-tung-diem__huong-dan.svg",
-          "caption": "Mô phỏng thao tác trong VPro"
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/xem-xe__minh-hoa.jpg",
+          "caption": "Xe hiển thị trên bản đồ sau khi bấm ô tô; chỉ giữ rõ các nút và hình xe để bảo vệ dữ liệu vị trí."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/xem-xe__thao-tac.mp4",
+          "caption": "Xe hiển thị trên bản đồ sau khi bấm ô tô; chỉ giữ rõ các nút và hình xe để bảo vệ dữ liệu vị trí."
         }
       ]
     },
     {
-      "id": "tao-tuyen",
-      "title": "Chọn tuyến nhiều điểm trên Maps",
-      "keywords": "chọn a b c d,lộ trình,tuyến,thêm điểm,địa chỉ,kml,maps",
-      "answer": "Mở bánh răng → Tự di chuyển. Thêm lần lượt A, B, C… bằng cách chạm trên Maps hoặc tìm địa chỉ. Kiểm tra tuyến, thời gian dừng và tốc độ, rồi bấm Chạy tuyến.\nMuốn thay các điểm khi đang chạy, sửa danh sách rồi Áp dụng tuyến. Chỉ thao tác này bắt đầu tuyến mới từ A; đổi tốc độ không bắt đầu lại. Lặp đi/về sẽ mô phỏng ngược cùng đường, không phải hướng dẫn lái xe thực tế.",
+      "id": "bat-gps",
+      "title": "03 · Chọn một điểm và bật GPS",
+      "keywords": "bật gps, fake gps, định vị, chọn điểm, play, giữ nguyên vị trí",
+      "answer": "1. Nếu đang chạy GPS và muốn thay một điểm đứng yên, bấm Stop trước.\n2. Kéo Maps tới vùng cần chọn và chạm đúng vị trí. Bạn cũng có thể chọn từ kính lúp hoặc danh sách điểm đã lưu.\n3. Kiểm tra ghim đã nằm đúng nơi muốn dùng. Việc kéo bản đồ để xem nơi khác không đồng nghĩa đã đổi điểm GPS đang chạy.\n4. Bấm Play ở giữa cạnh dưới.\n5. Kiểm tra nút đổi sang Stop màu vàng và app báo đang chạy. Nếu hiện yêu cầu quyền, hoàn thành quyền rồi thử lại.\n\nĐỂ GIỮ MỘT ĐIỂM CỐ ĐỊNH\nVào bánh răng → Thông số GPS → tắt Di chuyển tại chỗ ngẫu nhiên. Không bật tuyến tự di chuyển nếu chỉ muốn đứng tại một điểm.\n\nSố Độ chính xác là thông số của bản tin vị trí; nó không chứng minh thiết bị thật đang đứng ở ghim. Không dùng vị trí mô phỏng cho điều hướng an toàn, cứu hộ hoặc xác nhận vị trí thật.\n\nNếu ứng dụng khác vẫn báo vị trí thật, xem bài xử lý GPS. Không có một cài đặt nào bảo đảm mọi ứng dụng chấp nhận vị trí mô phỏng.",
       "media": [
         {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__huong-dan.svg",
-          "caption": "Mô phỏng thao tác trong VPro"
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__minh-hoa.jpg",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__thao-tac.mp4",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
         }
       ]
     },
     {
       "id": "dung-gps",
-      "title": "Dừng GPS và lấy lại vị trí thực",
-      "keywords": "tắt gps,dừng gps,vị trí thật,vị trí thực,không về,đứng yên,định vị",
-      "answer": "Bấm nút Dừng hoặc bánh răng → Dừng GPS. App ngừng phát vị trí mô phỏng và yêu cầu một vị trí mới từ hệ thống.\nTrong lúc chờ, thông báo Chờ vị trí thực mới cho biết chưa có kết quả mới. Trong nhà hoặc khi tín hiệu yếu có thể cần thêm thời gian. Điểm bạn chọn và danh sách điểm đã lưu vẫn được giữ; chúng không phải dấu chấm vị trí thực.",
-      "media": []
+      "title": "04 · Dừng GPS và trở lại vị trí thiết bị",
+      "keywords": "dừng gps, stop, trả vị trí thật, tắt fake, nhảy vị trí, gps thật",
+      "answer": "TRẢ VỀ TRỰC TIẾP\n1. Bánh răng → Quay về khi dừng GPS → tắt chế độ quay về theo đường nếu muốn ngừng mô phỏng ngay.\n2. Về bản đồ, bấm Stop màu vàng. Hoặc chọn Dừng GPS / hủy tuyến trong bánh răng.\n3. Chờ nút trở lại Play. Android tiếp tục lấy vị trí thiết bị từ các nguồn định vị thật.\n4. Chạm nút Vị trí của tôi để đưa bản đồ về vị trí hệ thống đang báo.\n\nNẾU ĐÃ BẬT QUAY VỀ THEO ĐƯỜNG\nLần bấm Stop đầu tiên có thể bắt đầu chặng quay về và vẫn phát vị trí mô phỏng. Bấm Stop thêm lần nữa để hủy chặng về và ngừng mô phỏng ngay. Xem bài “Quay về khi dừng GPS”.\n\nVÌ SAO CÓ LÚC VẪN THẤY ĐIỂM CŨ?\nGhim đã chọn có thể còn trên bản đồ; ghim này khác chấm vị trí của thiết bị. Ứng dụng khác cũng có thể đang giữ kết quả cũ. Tốc độ nhận lại vị trí thật phụ thuộc tín hiệu, quyền và bộ nhớ đệm; không thể hứa mọi máy, mọi app đều cập nhật trong 1–2 giây.\n\nNếu còn chậm, giữ Vị trí của Android bật, mở bản đồ ở nơi thoáng và yêu cầu định vị lại. Đừng tiếp tục bấm Play/Stop liên tục.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quay-ve__minh-hoa.jpg",
+          "caption": "Cài đặt quay về theo đường. Điểm đích là vị trí thật ghi trước khi bật mô phỏng."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quay-ve__thao-tac.mp4",
+          "caption": "Cài đặt quay về theo đường. Điểm đích là vị trí thật ghi trước khi bật mô phỏng."
+        }
+      ]
+    },
+    {
+      "id": "quay-ve",
+      "title": "05 · Quay về theo đường khi bấm Stop",
+      "keywords": "quay về, rút về, tốc độ quay về, điểm thật trước khi bật, ngay lập tức",
+      "answer": "ĐÍCH QUAY VỀ LÀ ĐÂU?\nĐích là vị trí thật được ghi nhận ngay trước khi bật GPS mô phỏng. Nếu bạn mang điện thoại đi nơi khác trong lúc chạy, đích đã ghi không tự trở thành vị trí thật mới.\n\nCÁCH DÙNG\n1. Khi GPS mô phỏng đang tắt, để Android xác định được vị trí thật.\n2. Bánh răng → Quay về khi dừng GPS.\n3. Bật quay về theo đường và đặt tốc độ km/h. Tắt tùy chọn này nếu muốn ngừng mô phỏng trực tiếp.\n4. Chọn điểm hoặc tuyến rồi bật GPS như thường lệ.\n5. Bấm Stop: khi có điểm gốc hợp lệ và tìm được đường, app chạy chặng về. Theo dõi trạng thái và đường trên bản đồ.\n6. Khi đến đích, app kết thúc mô phỏng; Android lấy vị trí thiết bị thật. Có thể khác đích nếu thiết bị đã di chuyển.\n\nMUỐN DỪNG NGAY GIỮA CHẶNG VỀ\nBấm Stop thêm lần nữa. Không cần chờ về hết tuyến.\n\nNếu không có vị trí thật đủ mới, hoặc không tìm được đường, không nên dựa vào một chặng về cũ. Kết nối mạng và nhận vị trí thật trước lần chạy kế tiếp. Chế độ này không phải chỉ đường lái xe ngoài thực tế.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quay-ve__minh-hoa.jpg",
+          "caption": "Cài đặt quay về theo đường. Điểm đích là vị trí thật ghi trước khi bật mô phỏng."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quay-ve__thao-tac.mp4",
+          "caption": "Cài đặt quay về theo đường. Điểm đích là vị trí thật ghi trước khi bật mô phỏng."
+        }
+      ]
+    },
+    {
+      "id": "tao-tuyen",
+      "title": "06 · Tạo lộ trình A → B → C… trên Maps",
+      "keywords": "tạo tuyến, chọn a b c d, lộ trình, di chuyển, maps, địa chỉ",
+      "answer": "1. Chạm bánh răng → Tự di chuyển · A → B → C…\n2. Chạm dòng điểm A. Chọn trực tiếp trên Maps: kéo/phóng bản đồ, chọn đúng nơi và bấm nút xác nhận điểm đang chọn. Hoặc dùng mục tìm địa chỉ trong trình chọn điểm.\n3. Làm tương tự cho B. Muốn thêm chặng, bấm + Thêm điểm C, rồi D… App hỗ trợ tối đa 12 điểm A–L.\n4. Chọn kiểu Ô tô, Đi bộ hoặc Chạy bộ và tốc độ phù hợp.\n5. Đặt thời gian dừng ở từng điểm nếu cần; bật lặp đi/về nếu muốn chạy liên tục.\n6. Tìm đường/Áp dụng/Chạy tuyến theo nút đang hiện. Chờ app tìm đường rồi kiểm tra đường nối và các nhãn A, B, C trên Maps.\n\nKẾT QUẢ ĐÚNG\nĐường dự thảo hiện trên bản đồ để kiểm tra; khi chạy, có đường tuyến và bảng điều khiển tốc độ. Tuyến có ít nhất hai điểm khác nhau. Điểm quá xa mạng đường có thể không tìm được tuyến.\n\nNếu chọn sai, sửa đúng dòng điểm hoặc dùng Tùy chọn → Đặt lại các điểm đã chọn. Việc mở trình sửa chưa làm thay tuyến đang chạy; chỉ áp dụng khi bạn xác nhận.\n\nCần Internet để tìm đường mới. Đường mô phỏng phụ thuộc dữ liệu bản đồ và không thay thế hướng dẫn giao thông thực tế.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__minh-hoa.jpg",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__thao-tac.mp4",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        }
+      ]
+    },
+    {
+      "id": "toc-do",
+      "title": "07 · Đổi tốc độ ngay khi tuyến đang chạy",
+      "keywords": "tốc độ, tăng tốc, giảm tốc, 20 30 40, kmh, km/h, không dừng",
+      "answer": "CÁCH NHANH NGAY TRÊN MAPS\n1. Khi tuyến đang chạy, tìm bảng có tốc độ km/h phía dưới bản đồ.\n2. Chạm +10 để tăng 10 km/h; chạm −10 để giảm 10 km/h.\n3. Quan sát số tốc độ thay đổi. Tuyến tiếp tục từ vị trí hiện tại, không cần bấm Stop rồi Play lại.\n\nCHỌN TỐC ĐỘ CỤ THỂ\n1. Chạm vào số km/h trong bảng.\n2. Trong Điều khiển tuyến đang chạy, dùng thanh trượt hoặc nút 20 / 30 / 40 km/h.\n3. Thay đổi được áp dụng ngay. Bấm Đóng để trở lại Maps; không cần nút Dùng thêm lần nữa.\n\nGiới hạn phụ thuộc kiểu di chuyển: Ô tô tối đa 130 km/h, Đi bộ tối đa 10 km/h, Chạy bộ tối đa 30 km/h. Tốc độ thấp nhất là 1 km/h; muốn đứng yên, dùng Tạm dừng tại chỗ.\n\nNút Ⅱ trên bảng tạm dừng tiến độ tuyến; bấm tiếp tục để đi tiếp. Tạm dừng tuyến vẫn giữ vị trí mô phỏng. Muốn trở lại GPS thật, dùng Stop theo bài “Dừng GPS”.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/toc-do__minh-hoa.jpg",
+          "caption": "Tốc độ thay đổi khi tuyến đang chạy, không cần Stop rồi Play lại."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/toc-do__thao-tac.mp4",
+          "caption": "Tốc độ thay đổi khi tuyến đang chạy, không cần Stop rồi Play lại."
+        }
+      ]
+    },
+    {
+      "id": "dung-tung-diem",
+      "title": "08 · Dừng ở B một lúc rồi đi tiếp C/D",
+      "keywords": "dừng từng điểm, thời gian chờ, dừng tại b, nghỉ, phút giây, tạm dừng",
+      "answer": "ĐẶT TRƯỚC KHI CHẠY\n1. Trong màn hình tạo tuyến, bên dưới mỗi điểm có dòng Dừng tại A/B/C…\n2. Chạm dòng của điểm cần nghỉ, ví dụ Dừng tại B.\n3. Nhập số phút và giây, sau đó Lưu. Ví dụ 2 phút 30 giây.\n4. Chạy tuyến. Khi tới B, app giữ tại B và đếm thời gian chờ; hết thời gian sẽ đi tiếp C.\n\nSỬA TRONG LÚC ĐANG CHẠY\n1. Chạm tốc độ km/h trên bảng điều khiển.\n2. Chọn Dừng tại điểm cần sửa và lưu thời gian mới.\n3. Nếu đang ở thời gian chờ và muốn đi luôn, chọn Đi tiếp ngay (bỏ thời gian chờ).\n\n0 PHÚT 0 GIÂY nghĩa là đi tiếp ngay. Mỗi điểm cho phép thời gian chờ tối đa 24 giờ; ô giây dùng 0–59.\n\nTạm dừng tại chỗ khác thời gian dừng đã đặt: nó giữ tiến độ đến khi bạn bấm tiếp tục. Stop lại là kết thúc mô phỏng hoặc quay về theo cấu hình. Hãy đọc đúng trạng thái trước khi bấm.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/dung-tung-diem__minh-hoa.jpg",
+          "caption": "Đặt thời gian chờ tại từng điểm. 0 phút 0 giây là đi tiếp ngay."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/dung-tung-diem__thao-tac.mp4",
+          "caption": "Đặt thời gian chờ tại từng điểm. 0 phút 0 giây là đi tiếp ngay."
+        }
+      ]
+    },
+    {
+      "id": "lap-vong",
+      "title": "09 · Lặp đi/về và thay tuyến đang chạy",
+      "keywords": "lặp vòng, a b b a, liên tục, thay tuyến, áp dụng, chạy lại",
+      "answer": "LẶP LIÊN TỤC\n1. Mở Tự di chuyển và chọn đủ các điểm.\n2. Bật Lặp đi/về đến khi dừng.\n3. Chạy tuyến. Ví dụ A → B → C sẽ đi tới C, quay lại theo tuyến về B → A, rồi lặp tiếp.\n4. Xem chữ Chiều đi/Chiều về trên bảng trạng thái. Các thời gian chờ đã đặt được áp dụng theo chặng.\n5. Bấm Stop khi muốn kết thúc; nếu đã bật quay về, xem bài tương ứng để dừng hẳn.\n\nĐỔI SANG TUYẾN KHÁC\nTrong bảng điều khiển tuyến đang chạy, chọn Sửa các điểm. Sửa A/B/C hoặc thêm điểm; khi xong mới bấm áp dụng/chạy tuyến mới. Trong lúc chỉnh bản nháp, tuyến hiện tại vẫn hoạt động.\n\nÁp dụng một tuyến mới có thể đưa mô phỏng tới A mới; không có nghĩa app tự nối từ vị trí hiện tại tới A. Nếu muốn nối tiếp tự nhiên, chọn A mới gần vị trí đang chạy.\n\nLặp về dùng đường đã tính theo chiều ngược lại. Đây là mô phỏng; không dùng nó làm chỉ dẫn đi ngược đường một chiều ngoài thực tế.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__minh-hoa.jpg",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__thao-tac.mp4",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        }
+      ]
+    },
+    {
+      "id": "dat-lai-tuyen",
+      "title": "10 · Chọn sai: sửa điểm hoặc đặt lại tuyến",
+      "keywords": "đặt lại, xóa tuyến, reset, chọn sai, sửa a b c d",
+      "answer": "CHỈ SAI MỘT ĐIỂM\n1. Mở Tự di chuyển.\n2. Chạm đúng dòng A/B/C… cần sửa.\n3. Chọn lại trên Maps hoặc tìm địa chỉ rồi xác nhận.\n4. Kiểm tra lại thứ tự và đường nối trước khi chạy/áp dụng.\n\nMUỐN CHỌN LẠI TỪ ĐẦU\n1. Trong màn hình tạo tuyến, chạm Tùy chọn.\n2. Chọn Đặt lại các điểm đã chọn và xác nhận.\n3. Chọn lại A rồi B, thêm C/D nếu cần.\n\nĐặt lại chỉ xóa bản tuyến đang soạn. Nó không xóa danh sách Điểm đã lưu và không tự dừng tuyến đang chạy. Muốn kết thúc tuyến đang chạy, dùng Stop hoặc Dừng GPS / hủy tuyến.\n\nSau khi reset, cần ít nhất hai điểm để tìm đường. Tính năng Nhập tuyến từ tệp KML đã được bỏ; nhập danh sách điểm dùng nút Khôi phục trong Điểm đã lưu, không dùng màn hình tạo tuyến.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__minh-hoa.jpg",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tao-tuyen__thao-tac.mp4",
+          "caption": "Chọn lần lượt các điểm trên Maps. Các tọa độ trong bản nháp được che."
+        }
+      ]
+    },
+    {
+      "id": "do-chinh-xac",
+      "title": "11 · Độ chính xác ngẫu nhiên là gì?",
+      "keywords": "độ chính xác, accuracy, acc, ngẫu nhiên, thông số gps",
+      "answer": "1. Chạm bánh răng → Thông số GPS.\n2. Bật hoặc tắt Độ chính xác ngẫu nhiên.\n3. Trở lại bản đồ và bật GPS mô phỏng để quan sát thông số được phát.\n\nỞ bản hiện tại, khi bật tùy chọn này, app thay đổi trường độ chính xác mô phỏng trong khoảng khoảng 1–5 m. Khi tắt, không dùng dải ngẫu nhiên này.\n\nĐIỀU CẦN PHÂN BIỆT\n• Độ chính xác mô phỏng là giá trị gắn với bản tin vị trí, không phải phép đo chất lượng GPS thật.\n• Nó không tự làm tọa độ chạy quanh điểm. Muốn thay đổi nhẹ tọa độ, xem “Di chuyển tại chỗ ngẫu nhiên”.\n• Số nhỏ hơn không chứng minh sẽ nhận cuốc tốt hơn, không xác nhận khách đang đứng tại tọa độ đó và không bảo đảm mọi app dùng cùng một nguồn vị trí.\n\nChỉ thay một tùy chọn mỗi lần khi kiểm tra để biết thay đổi nào ảnh hưởng kết quả. Nếu ưu tiên đứng yên tại đúng một điểm, giữ di chuyển tại chỗ tắt.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__minh-hoa.jpg",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__thao-tac.mp4",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
+        }
+      ]
+    },
+    {
+      "id": "ngau-nhien",
+      "title": "12 · Di chuyển tại chỗ ngẫu nhiên",
+      "keywords": "di chuyển tại chỗ, rung nhẹ, ngẫu nhiên tọa độ, jitter, đứng yên",
+      "answer": "Tùy chọn này tạo dao động tọa độ rất nhỏ quanh điểm đang mô phỏng, trong phạm vi dưới khoảng 1 m. Nó không phải một chuyến đi theo đường và không tự tìm cuốc xe.\n\nCÁCH DÙNG\n1. Bánh răng → Thông số GPS.\n2. Bật Di chuyển tại chỗ ngẫu nhiên nếu cần kiểm tra phản ứng của ứng dụng với dao động nhỏ.\n3. Chọn điểm và bật GPS. Quan sát tọa độ thay đổi nhẹ quanh điểm.\n4. Tắt tùy chọn để giữ tọa độ cố định.\n\nKhi đang chạy tuyến A/B/C, tuyến điều khiển tọa độ; không cộng thêm một chuyển động ngẫu nhiên thành một tuyến khác.\n\nĐộ chính xác ngẫu nhiên là tùy chọn riêng: nó thay đổi thông số accuracy, không đồng nghĩa tọa độ sẽ di chuyển. Nếu muốn đứng đúng một ghim, tắt di chuyển tại chỗ và không chạy tuyến.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__minh-hoa.jpg",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/do-chinh-xac__thao-tac.mp4",
+          "caption": "Bật/tắt độ chính xác và di chuyển tại chỗ. Giá trị mô phỏng không phải độ chính xác GPS thật."
+        }
+      ]
+    },
+    {
+      "id": "tim-maps",
+      "title": "13 · Tìm khách sạn/địa chỉ trên Maps",
+      "keywords": "tìm maps, kính lúp, địa chỉ, khách sạn, tìm vị trí, lân cận",
+      "answer": "1. Kéo Maps tới khu vực muốn tìm.\n2. Bấm kính lúp → chọn Tìm vị trí trên Maps.\n3. Nhập tên địa điểm hoặc địa chỉ đủ rõ: tên + phường/quận/thành phố giúp tránh chọn nhầm nơi trùng tên.\n4. Chọn bán kính lân cận phù hợp: 1 km, 5 km, 20 km hoặc không giới hạn. Tâm tìm kiếm là vùng Maps đang xem, không nhất thiết là vị trí thật của máy.\n5. Bấm Tìm, đọc tên và địa chỉ của kết quả, rồi chọn đúng địa điểm.\n6. Chọn dùng làm điểm A, điểm B hoặc chọn điểm GPS theo các nút app hiển thị.\n\nMuốn dùng làm điểm GPS đứng yên, hãy dừng mô phỏng trước, chọn điểm rồi bấm Play. Muốn thêm C/D, dùng trình tạo tuyến.\n\nKết quả Maps thường là vị trí địa danh hoặc tòa nhà. Nó có thể khác cổng đón/trả. Để chọn cổng, dùng chế độ Điểm đón/trả. Muốn biết khách đang đứng ở đâu, cần vị trí khách chia sẻ; tên khách sạn không đủ để xác định vị trí khách trực tiếp.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tim-don-tra__minh-hoa.jpg",
+          "caption": "Luồng tìm điểm dùng phiên kết nối đã lưu. Không hiển thị token; tên điểm, địa chỉ và tọa độ được che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tim-don-tra__thao-tac.mp4",
+          "caption": "Luồng tìm điểm dùng phiên kết nối đã lưu. Không hiển thị token; tên điểm, địa chỉ và tọa độ được che."
+        }
+      ]
+    },
+    {
+      "id": "tim-don-tra",
+      "title": "14 · Tìm điểm đón/trả bằng tên khách sạn",
+      "keywords": "điểm grab, điểm nổ, token, tìm điểm đón trả, tên khách sạn, cổng",
+      "answer": "1. Kết nối Internet; dùng phiên kết nối đã lưu hợp lệ trong VPro.\n2. Bấm kính lúp → chọn Điểm đón/trả.\n3. Nhập tên khách sạn/địa điểm kèm thành phố rồi bấm Tìm.\n4. Nếu có nhiều địa danh trùng tên, chọn đúng khách sạn trong danh sách trước.\n5. VPro dùng phiên đã lưu để yêu cầu các điểm đón/trả quanh địa điểm đó. Bạn không cần nhập lại thông tin kết nối ở mỗi lần tìm.\n6. Đọc địa chỉ và tên cổng trong kết quả. Chạm thẻ để chọn điểm; hoặc bấm Lưu bên cạnh để thêm vào Điểm đã lưu.\n\nNÚT QUANH ĐÂY\nLấy điểm quanh vùng bản đồ đang xem mà không cần nhập tên. Kéo Maps tới vùng mong muốn trước khi dùng.\n\nChọn một thẻ không tự xác nhận khách đang đứng ở đó. Điểm đón/trả là dữ liệu địa điểm/cổng do nguồn trả về, không phải cam kết có cuốc hay có khách chờ.\n\nNếu báo Đang kết nối, hết phiên hoặc giới hạn truy cập, kiểm tra mạng và kết nối hợp lệ; không bấm tải dồn dập. Không công khai token, mã key hoặc thông tin khách hàng khi nhờ hỗ trợ.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tim-don-tra__minh-hoa.jpg",
+          "caption": "Luồng tìm điểm dùng phiên kết nối đã lưu. Không hiển thị token; tên điểm, địa chỉ và tọa độ được che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/tim-don-tra__thao-tac.mp4",
+          "caption": "Luồng tìm điểm dùng phiên kết nối đã lưu. Không hiển thị token; tên điểm, địa chỉ và tọa độ được che."
+        }
+      ]
+    },
+    {
+      "id": "load-diem",
+      "title": "15 · Nút người giơ tay: load và lưu điểm",
+      "keywords": "load điểm, lấy điểm, người giơ tay, điểm đón trả, lưu kết quả",
+      "answer": "1. Kéo và phóng Maps tới khu vực cần xem.\n2. Chạm nút người giơ tay ở bên trái Play/Stop.\n3. Chờ bảng Điểm Đón/Trả Khách. Đọc tên cổng, địa chỉ và vị trí trả về.\n4. Chạm thẻ điểm muốn chọn; nếu đang chạy GPS, dừng trước khi đổi một điểm đứng yên.\n5. Muốn lưu để lần sau dùng lại, bấm Lưu ngay trên thẻ. Sau đó mở biểu tượng thư mục có ghim → Điểm đã lưu để kiểm tra.\n6. Nếu muốn đổi tên hoặc sửa tọa độ, chạm điểm đã lưu → Sửa tọa độ → Lưu.\n\nKhông thấy điểm không đồng nghĩa khu vực không có khách. Kết quả còn phụ thuộc mạng, phiên kết nối, vùng bản đồ và dữ liệu nguồn. Chuyển sang kính lúp → Điểm đón/trả để tìm bằng tên cụ thể.\n\n“Điểm nổ” trong cách gọi thông thường không phải danh sách cuốc được bảo đảm phát. VPro không điều khiển việc nền tảng phân cuốc.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/load-diem__minh-hoa.jpg",
+          "caption": "Bảng kết quả thật của nút người giơ tay; dữ liệu điểm đã che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/load-diem__thao-tac.mp4",
+          "caption": "Bảng kết quả thật của nút người giơ tay; dữ liệu điểm đã che."
+        }
+      ]
+    },
+    {
+      "id": "xem-xe",
+      "title": "16 · Xem xe và lưu tọa độ từ một xe",
+      "keywords": "xem xe, ô tô, tài xế, lưu tọa độ tài xế, nhiều xe",
+      "answer": "1. Kết nối mạng và kéo Maps tới khu vực cần xem.\n2. Bấm biểu tượng ô tô bên phải Play/Stop một lần. Khi nguồn có dữ liệu và phiên hợp lệ, xe sẽ hiện trên bản đồ; không cần bật thêm biểu tượng VPro riêng.\n3. Chạm xe. Nếu nhiều xe ở cùng một điểm, đọc từng mục trong bảng trả về.\n4. Chọn Lưu tọa độ này ở mục cần lưu.\n5. Đặt tên dễ nhớ. Kiểm tra Vĩ độ/Kinh độ; giữ nguyên hoặc sửa nếu cần rồi bấm Lưu.\n6. Mở Điểm đã lưu để chọn lại hoặc sửa điểm về sau.\n\nLưu tọa độ chỉ lưu một điểm ở thời điểm thao tác. Nó không tạo chức năng theo dõi tài xế đó liên tục. Vị trí xe có thể chậm hoặc thay đổi, không phải số liệu bảo đảm tức thời.\n\nBấm ô tô lại để tắt lớp xe. Nút thùng rác dùng dọn dấu đang xem; không thay thế việc quản lý danh sách điểm đã lưu.\n\nNếu không tải được, kiểm tra mạng và trạng thái phiên kết nối; đợi rồi thử lại. Không đăng ảnh chứa danh tính hoặc vị trí riêng của tài xế lên nhóm công khai.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/xem-xe__minh-hoa.jpg",
+          "caption": "Xe hiển thị trên bản đồ sau khi bấm ô tô; chỉ giữ rõ các nút và hình xe để bảo vệ dữ liệu vị trí."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/xem-xe__thao-tac.mp4",
+          "caption": "Xe hiển thị trên bản đồ sau khi bấm ô tô; chỉ giữ rõ các nút và hình xe để bảo vệ dữ liệu vị trí."
+        }
+      ]
     },
     {
       "id": "luu-diem",
-      "title": "Lưu điểm, sửa tọa độ và chia sẻ",
-      "keywords": "lưu điểm,sao lưu,khôi phục,chia sẻ,sửa tọa độ,tên điểm",
-      "answer": "Chọn điểm trên bản đồ, bấm Lưu tọa độ điểm này. Đặt tên, kiểm tra hoặc sửa vĩ độ / kinh độ rồi Lưu.\nMở danh sách điểm để xem, chỉnh sửa, sao lưu, khôi phục và chia sẻ. Lưu tọa độ chỉ tạo một điểm tĩnh, không theo dõi người hoặc xe.",
-      "media": []
+      "title": "17 · Lưu một điểm mới từ bản đồ",
+      "keywords": "lưu điểm, lưu tọa độ này, save, bút, tên điểm, thêm điểm",
+      "answer": "1. Dừng GPS mô phỏng nếu đang đổi điểm đứng yên.\n2. Chọn vị trí trên Maps. Chạm nút Lưu điểm (đĩa mềm kèm bút), hoặc Lưu tọa độ điểm này nếu nút tạm hiện sau khi chọn điểm.\n3. Nhập tên giúp nhận biết, ví dụ tên địa điểm + cổng vào/cổng ra.\n4. Kiểm tra Vĩ độ và Kinh độ; có thể sửa số trước khi lưu. Dùng dấu chấm cho phần thập phân.\n5. Bấm Lưu/OK theo hộp đang hiện.\n6. Mở biểu tượng thư mục có ghim để kiểm tra điểm đã nằm trong danh sách.\n\nBạn cũng có thể lưu trực tiếp từ thẻ kết quả tìm điểm đón/trả hoặc hộp thông tin xe. Chỉ bấm Lưu là lưu danh sách; muốn phát GPS tại điểm đó phải chọn điểm và bấm Play riêng.\n\nNếu nút Lưu tọa độ điểm này biến mất sau một lúc, chạm lại điểm để hiện lại hoặc dùng biểu tượng Lưu điểm bên trái. Đừng nhầm biểu tượng Điểm đã lưu (mở danh sách) với Lưu điểm (thêm điểm).",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/load-diem__minh-hoa.jpg",
+          "caption": "Bảng kết quả thật của nút người giơ tay; dữ liệu điểm đã che."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/load-diem__thao-tac.mp4",
+          "caption": "Bảng kết quả thật của nút người giơ tay; dữ liệu điểm đã che."
+        }
+      ]
+    },
+    {
+      "id": "lay-diem-da-luu",
+      "title": "18 · Lấy một điểm đã lưu để dùng lại",
+      "keywords": "lấy điểm đã lưu, chọn điểm đã lưu, mở danh sách, dùng điểm cũ, nhập điểm đã lưu",
+      "answer": "1. Tại Maps, chạm biểu tượng thư mục có ghim ở bên trái: Điểm đã lưu.\n2. Cuộn danh sách và chạm đúng dòng tên điểm cần lấy.\n3. Trong bảng thao tác của điểm, bấm Chọn điểm này.\n4. VPro quay lại Maps và đưa điểm đã lưu lên bản đồ.\n5. Kiểm tra ghim đúng nơi. Nếu muốn phát GPS tại đây, bấm Play.\n\nNếu đang chạy GPS và app yêu cầu dừng trước khi đổi điểm, bấm Stop rồi thực hiện lại. Để đổi một tuyến đang chạy, dùng phần Sửa các điểm trong điều khiển tuyến.\n\nCHỌN ĐIỂM KHÁC NHẬP TỆP\n• Chọn điểm này: dùng một điểm đã có trong app.\n• Khôi phục: nhập cả danh sách từ tệp đã nhận/tải về.\n• Sao lưu: xuất danh sách hiện có thành tệp.\n• Chia sẻ: gửi tệp danh sách qua bảng chia sẻ Android.\n\nKhông cần nhập lại tọa độ mỗi lần dùng điểm đã lưu. Muốn chỉnh tên hoặc vị trí, xem bài kế tiếp.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/lay-diem-da-luu__minh-hoa.jpg",
+          "caption": "Tên và tọa độ trong danh sách được che. Nút Chọn điểm này đưa điểm về Maps."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/lay-diem-da-luu__thao-tac.mp4",
+          "caption": "Tên và tọa độ trong danh sách được che. Nút Chọn điểm này đưa điểm về Maps."
+        }
+      ]
+    },
+    {
+      "id": "sua-diem",
+      "title": "19 · Sửa tên/tọa độ hoặc xóa một điểm",
+      "keywords": "sửa tọa độ, sửa tên điểm, kinh độ, vĩ độ, xóa điểm đã lưu",
+      "answer": "SỬA MỘT ĐIỂM\n1. Điểm đã lưu → chạm dòng điểm → Sửa tọa độ.\n2. Sửa Tên điểm nếu muốn.\n3. Sửa Vĩ độ và Kinh độ, hoặc giữ nguyên số đang có.\n4. Bấm Lưu. Chỉ điểm đang sửa được cập nhật.\n5. Mở lại điểm để kiểm tra; dùng Chọn điểm này nếu muốn đưa tọa độ mới lên Maps.\n\nVĩ độ có phạm vi −90 đến 90; Kinh độ −180 đến 180. Dùng dấu chấm thập phân, không gõ tên đường vào ô tọa độ. Không đổi lẫn hai ô.\n\nXÓA MỘT ĐIỂM\nĐiểm đã lưu → chạm điểm → Xóa điểm → đọc xác nhận rồi mới xóa. Nên Sao lưu trước khi xóa nhiều điểm.\n\nHủy/Đóng rời hộp thoại mà không áp dụng chỉnh sửa chưa lưu. Thùng rác ngoài Maps là dọn dấu trên bản đồ, không phải thao tác xóa một dòng trong danh sách này.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/lay-diem-da-luu__minh-hoa.jpg",
+          "caption": "Tên và tọa độ trong danh sách được che. Nút Chọn điểm này đưa điểm về Maps."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/lay-diem-da-luu__thao-tac.mp4",
+          "caption": "Tên và tọa độ trong danh sách được che. Nút Chọn điểm này đưa điểm về Maps."
+        }
+      ]
+    },
+    {
+      "id": "sao-luu",
+      "title": "20 · Sao lưu danh sách thành tệp",
+      "keywords": "sao lưu, xuất file, backup, giữ điểm, đổi điện thoại",
+      "answer": "1. Mở Điểm đã lưu bằng biểu tượng thư mục có ghim.\n2. Bấm Sao lưu ở phía trên.\n3. Android mở nơi lưu tệp. Chọn thư mục dễ nhớ, ví dụ Download/Tệp đã tải xuống.\n4. Giữ tên gợi ý VPro_DiemDaLuu_ngày_giờ.json hoặc đổi phần tên; giữ đuôi .json.\n5. Bấm LƯU trong trình chọn tệp và chờ thông báo Đã xuất file sao lưu.\n\nFile chứa tên điểm, vĩ độ và kinh độ của danh sách. File không chứa mã kích hoạt hay phiên kết nối.\n\nNên sao lưu trước khi chuyển máy, gỡ app, sửa/xóa nhiều điểm. Sao chép tệp tới một nơi riêng bạn tin cậy; chỉ lưu trong máy sẽ không bảo vệ khi mất hoặc hỏng máy.\n\nNếu báo xuất chưa hoàn tất, không dùng tệp đó để khôi phục. Kiểm tra dung lượng và nơi lưu rồi xuất lại. Có thể dùng Chia sẻ để gửi danh sách, không cần xuất tệp thủ công trước.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/sao-luu__minh-hoa.jpg",
+          "caption": "Sao lưu xuất tệp danh sách. Dữ liệu điểm phía sau hộp thoại không được đưa vào video."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/sao-luu__thao-tac.mp4",
+          "caption": "Sao lưu xuất tệp danh sách. Dữ liệu điểm phía sau hộp thoại không được đưa vào video."
+        }
+      ]
+    },
+    {
+      "id": "chia-se",
+      "title": "21 · Chia sẻ điểm qua ứng dụng/Bluetooth",
+      "keywords": "chia sẻ điểm, bluetooth, quick share, gửi file, gửi danh sách",
+      "answer": "NGƯỜI GỬI\n1. Mở Điểm đã lưu → Chia sẻ.\n2. VPro chuẩn bị tệp danh sách và mở bảng chia sẻ của Android.\n3. Chọn ứng dụng hoặc cách truyền có trên điện thoại: Bluetooth, Quick Share/Chia sẻ nhanh, ứng dụng nhắn tin…\n4. Chọn đúng người/thiết bị nhận và hoàn tất thao tác gửi trong nền tảng đó.\n\nNGƯỜI NHẬN\n1. Nhận và tải tệp về máy.\n2. Mở VPro → Điểm đã lưu → Khôi phục.\n3. Chọn đúng tệp vừa nhận; đọc số điểm và xác nhận Khôi phục.\n\nNút Chia sẻ hiện gửi danh sách điểm, không chỉ dòng bạn vừa chạm. Kiểm tra nội dung trước khi chia sẻ vì tệp chứa tên và tọa độ đã lưu. Việc có Bluetooth/Quick Share trong bảng phụ thuộc máy và ứng dụng hệ thống.\n\nChỉ mở bảng chia sẻ chưa đồng nghĩa tệp đã gửi. Nếu hủy bảng, danh sách vẫn giữ nguyên. File không dùng để chuyển quyền kích hoạt giữa hai thiết bị.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/chia-se__minh-hoa.jpg",
+          "caption": "Bảng chia sẻ thật của Android. Danh sách điểm và gợi ý liên hệ riêng đã được che; chưa gửi tệp cho ai."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/chia-se__thao-tac.mp4",
+          "caption": "Bảng chia sẻ thật của Android. Danh sách điểm và gợi ý liên hệ riêng đã được che; chưa gửi tệp cho ai."
+        }
+      ]
+    },
+    {
+      "id": "khoi-phuc",
+      "title": "22 · Nhập tệp và khôi phục điểm đã lưu",
+      "keywords": "khôi phục, nhập file, nhập điểm, restore, json, tệp đã nhận, tải xuống",
+      "answer": "1. Nhận hoặc tải tệp sao lưu VPro về máy trước. Ghi nhớ tên và thư mục của tệp.\n2. Mở VPro → Điểm đã lưu → Khôi phục.\n3. Trong trình chọn tệp Android, vào Download/Tệp đã tải xuống hoặc thư mục chứa tệp. Có thể dùng kính lúp của trình chọn tệp để tìm đúng tên.\n4. Chạm đúng tệp .json do VPro Sao lưu/Chia sẻ tạo ra.\n5. App kiểm tra và hiện Khôi Phục N điểm? Đọc số lượng rồi bấm Khôi Phục.\n6. Chờ kết quả Đã thêm… / Bỏ qua… điểm trùng, bấm Đóng và kiểm tra danh sách.\n\nĐIỂM CŨ CÓ BỊ MẤT KHÔNG?\nKhôi phục thêm vào danh sách hiện có. Điểm trùng cả tên và tọa độ được bỏ qua; điểm khác được giữ lại. Đây không phải thao tác ghi đè toàn bộ danh sách.\n\nĐÚNG ĐỊNH DẠNG\nDùng tệp sao lưu VPro, tối đa 5 MB và 10.000 điểm. Tệp KML, APK, ảnh hay TXT tùy ý không phải tệp sao lưu; đổi đuôi thành .json không chuyển được định dạng. TXT chỉ đọc được nếu nội dung vốn đúng cấu trúc sao lưu VPro.\n\nNếu báo lỗi, tải lại tệp đầy đủ và kiểm tra đúng file. Danh sách trước khi khôi phục được giữ nguyên khi đọc tệp không hợp lệ. Khi chỉ cần dùng một điểm đã có, chọn Chọn điểm này thay vì Khôi phục.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/khoi-phuc__minh-hoa.jpg",
+          "caption": "Minh họa màn hình tìm tệp cần chọn. Bước xác nhận Khôi phục được mô tả trong bài; clip này không ghi bước hoàn tất."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/khoi-phuc__thao-tac.mp4",
+          "caption": "Minh họa màn hình tìm tệp cần chọn. Bước xác nhận Khôi phục được mô tả trong bài; clip này không ghi bước hoàn tất."
+        }
+      ]
     },
     {
       "id": "quyen",
-      "title": "Quyền vị trí, pin và thông báo",
-      "keywords": "cấp quyền,pin,vị trí luôn cho phép,cài lần đầu,kích hoạt",
-      "answer": "Sau khi kích hoạt, làm các bước cấp quyền mà VPro hiển thị. Chọn vị trí chính xác và quyền vị trí nền nếu Android có mục đó; cho phép pin không hạn chế. Quay về VPro, app tự vào khi các bước đã đủ.\nKhông phải mọi dòng máy đều có cùng tên menu. Nếu chưa vào được, kiểm tra trạng thái từng mục trên màn hình thiết lập.",
+      "title": "23 · Quyền vị trí và pin để app hoạt động",
+      "keywords": "quyền, pin, luôn cho phép, không hạn chế, lần đầu, android",
+      "answer": "1. Khi mới dùng, đọc từng yêu cầu Thiết lập VPro và mở đúng mục cài đặt mà app dẫn tới.\n2. Cho phép vị trí chính xác nếu Android có lựa chọn Chính xác/Gần đúng.\n3. Trong quyền vị trí của ứng dụng, chọn Luôn cho phép nếu máy cung cấp mục này và bạn cần chạy nền.\n4. Với pin, chọn Không hạn chế/bỏ tối ưu pin theo giao diện thiết bị. Tên mục có thể khác giữa Samsung, Xiaomi và các phiên bản Android.\n5. Cho phép thông báo nếu Android yêu cầu để thấy trạng thái đang chạy và các thông báo app.\n6. Trở lại VPro; khi quyền cần thiết đã đạt, app vào giao diện sử dụng.\n\nMuốn kiểm tra lại: bánh răng → Quyền vị trí và pin. Không cần bật quyền Thay đổi cài đặt hệ thống chỉ để làm theo bài này nếu app không yêu cầu.\n\nQuyền vị trí thông thường khác quyền mô phỏng. Nếu thiết bị yêu cầu chọn ứng dụng mô phỏng trong Tùy chọn nhà phát triển, dùng cơ chế Android cho phép; app không tự có mọi đặc quyền trên tất cả máy.\n\nKhông tắt cưỡng bức VPro trong lúc muốn duy trì mô phỏng. Việc cấp quyền cũng không bảo đảm hệ thống sẽ giữ dịch vụ mãi trong mọi điều kiện thiếu pin/bộ nhớ.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quyen__minh-hoa.jpg",
+          "caption": "Màn hình kiểm tra quyền thực tế; máy minh họa đã hoàn tất 5/5 bước."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/quyen__thao-tac.mp4",
+          "caption": "Màn hình kiểm tra quyền thực tế; máy minh họa đã hoàn tất 5/5 bước."
+        }
+      ]
+    },
+    {
+      "id": "hop-thu",
+      "title": "24 · Đọc thông báo và dấu số chưa đọc",
+      "keywords": "hộp thư, thông báo, số đỏ, chưa đọc, video thông báo",
+      "answer": "1. Chạm biểu tượng phong bì bên trái Maps.\n2. Chọn thông báo cần đọc; xem toàn bộ nội dung trong app.\n3. Nếu có hình hoặc video, cuộn tới phần đó và chạm phát theo giao diện hiển thị.\n4. Quay lại hộp thư. Số trên biểu tượng thể hiện các thông báo app còn ghi nhận chưa đọc.\n\nThông báo mới cần Internet để nhận. Khi người quản lý thay nội dung thành một thông báo mới, app có thể đánh dấu chưa đọc lại. Âm thanh còn phụ thuộc quyền thông báo, kênh âm thanh của Android, chế độ im lặng và Không làm phiền.\n\nNếu đã đọc nhưng số chưa giảm, quay lại danh sách rồi mở lại app và kiểm tra mạng. Khi báo lỗi, chụp đúng thông báo và thời điểm; che key/tên riêng trước khi gửi hỗ trợ.\n\nHộp thư thông báo là nơi nhận nội dung do VPro phát, khác với cuộc trò chuyện hỗ trợ riêng hoặc cộng đồng.",
+      "media": []
+    },
+    {
+      "id": "cap-nhat",
+      "title": "25 · Kiểm tra và cài bản cập nhật",
+      "keywords": "cập nhật, update, mũi tên xuống, cài đè, apk, bản mới",
+      "answer": "1. Kết nối Internet và chạm biểu tượng mũi tên xuống bên phải Maps.\n2. Nếu có bản mới, đọc ghi chú thay đổi nếu có, rồi chọn tải/cập nhật.\n3. Chờ tải đủ tệp. Android có thể yêu cầu cho phép VPro cài ứng dụng từ nguồn này; chỉ đồng ý khi đây là bản bạn chủ động lấy từ VPro.\n4. Xác nhận cài đặt trong trình cài đặt của Android. Đây là bước hệ thống, không phải cài im lặng.\n5. Mở lại VPro, kiểm tra điểm đã lưu và các quyền cần thiết.\n\nNên Sao lưu danh sách điểm trước khi cập nhật. Cài đè đúng ứng dụng thường giữ dữ liệu; gỡ app trước có thể xóa dữ liệu cục bộ.\n\nNếu Android báo không cài được/có xung đột, không vội gỡ bản đang dùng. Cài đè còn cần tên gói, chữ ký và điều kiện phiên bản tương thích; chỉ đổi tên tệp APK không giải quyết được. Liên hệ VPro để nhận đúng bản và giữ tệp sao lưu riêng.",
+      "media": []
+    },
+    {
+      "id": "bieu-tuong",
+      "title": "26 · Biểu tượng và tên hiển thị của VPro",
+      "keywords": "biểu tượng ứng dụng, đổi tên, icon, đồng bộ giao diện, màn hình chính",
+      "answer": "1. Bánh răng → Biểu tượng ứng dụng.\n2. Đọc lựa chọn app đang cung cấp và dùng nút đồng bộ/cập nhật khi cần nhận cấu hình mới.\n3. Trở lại màn hình chính của điện thoại để kiểm tra biểu tượng. Một số launcher cần thời gian làm mới.\n\nBản hiện tại hỗ trợ chọn từ các mẫu biểu tượng/tên đã đóng gói. Ảnh tùy ý do người quản lý thay trên kho nội dung không thể tự trở thành icon hệ thống mới nếu ảnh đó chưa có trong APK; lối tắt cũng khác biểu tượng ứng dụng trong Cài đặt Android.\n\nThay mẫu hiển thị không tạo thêm một tài khoản, không đổi dữ liệu điểm đã lưu và không thay cơ chế kích hoạt. Nếu thấy hai lối tắt, hãy phân biệt lối tắt màn hình chính với ứng dụng thật; không gỡ app chỉ để dọn một lối tắt.",
+      "media": []
+    },
+    {
+      "id": "kich-hoat",
+      "title": "27 · Kích hoạt và đồng bộ key",
+      "keywords": "key, kích hoạt, mã ngắn dài, đồng bộ key, không vào app",
+      "answer": "1. Khi bảng kích hoạt xuất hiện, bấm Sao chép mã key nếu cần gửi mã cho người quản lý VPro qua kênh riêng.\n2. Khi đã được xác nhận kích hoạt, giữ Internet và bấm Kiểm tra kích hoạt nếu nút đang cho phép.\n3. Chờ app kiểm tra. Nội dung được lưu đệm ở dịch vụ mạng có thể khiến thay đổi chưa xuất hiện ngay; không cài lại liên tục để thử.\n4. Khi vào được Maps, có thể dùng bánh răng → Đồng bộ key để kiểm tra lại theo chức năng app.\n\nMã key gắn với cơ chế nhận diện đang dùng; không tự rút ngắn, nối thêm hoặc đổi ký tự trong mã. Việc chia sẻ tệp điểm không chuyển kích hoạt cho thiết bị khác.\n\nNếu vẫn bị chặn, ghi lại thông báo, phiên bản Android và thời điểm xảy ra rồi liên hệ VPro. Không đưa mã key/token vào chat cộng đồng hoặc ảnh hướng dẫn công khai.",
+      "media": []
+    },
+    {
+      "id": "ho-tro",
+      "title": "28 · Hướng dẫn, trợ lý, liên hệ và cộng đồng",
+      "keywords": "hỗ trợ, trợ lý ai, chatbot, liên hệ, chat cộng đồng, tin nhắn",
+      "answer": "MỞ HỖ TRỢ\nBấm dấu hỏi bên phải Maps. Chọn Hướng dẫn sử dụng để đọc bài và xem hình/video ngay trong VPro.\n\nHỎI TRỢ LÝ\nChọn Hỏi trợ lý AI, nhập một việc cụ thể, ví dụ “Làm sao khôi phục điểm từ tệp?”, rồi Gửi. Nếu có nút Xem hướng dẫn / hình và video liên quan, bấm để mở bài tương ứng.\n\nLIÊN HỆ RIÊNG\nChọn mục liên hệ VPro trực tiếp, nhập vấn đề và gửi. Theo dõi trả lời trong chính cuộc trò chuyện khi dịch vụ hỗ trợ đã được kết nối.\n\nCỘNG ĐỒNG\nBấm biểu tượng nhóm người hoặc chọn Chat cộng đồng trong Hỗ trợ. Đây là kênh trao đổi chung; không gửi key, token, thông tin khách hoặc vị trí riêng của người khác.\n\nCác phần chat/AI cần máy chủ hỗ trợ và kết nối được cấu hình. Nếu hiện Chưa kết nối hỗ trợ hoặc Dịch vụ đồng bộ chưa được thiết lập, chưa thể gửi/nhận chỉ bằng cách bấm Gửi nhiều lần; liên hệ người quản lý để hoàn tất kết nối. Thư viện hướng dẫn vẫn là cách xem nội dung có sẵn.\n\nTrợ lý có thể sai và không có quyền biết thuật toán phát cuốc hay danh sách cuốc tức thời. Không coi câu trả lời là bảo đảm thu nhập hoặc ưu tiên nhận cuốc.",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/ho-tro__minh-hoa.jpg",
+          "caption": "Mục hướng dẫn, trợ lý và liên hệ trong VPro."
+        },
+        {
+          "type": "video",
+          "url": "https://raw.githubusercontent.com/Vpro123/VproBanner/main/support/help/media/ho-tro__thao-tac.mp4",
+          "caption": "Mục hướng dẫn, trợ lý và liên hệ trong VPro."
+        }
+      ]
+    },
+    {
+      "id": "noi-dung",
+      "title": "29 · Điều khoản, banner và dòng chữ chạy",
+      "keywords": "điều khoản, banner, dòng chữ chạy, nội dung, thông báo hướng dẫn",
+      "answer": "• Điều khoản: chạm nút Điều khoản dưới banner để đọc nội dung sử dụng hiện hành, kéo để xem hết rồi đóng.\n• Banner: ảnh ở đầu app do người quản lý cập nhật; liên kết nếu có phụ thuộc cấu hình banner.\n• Dòng chữ chạy: nội dung thông báo chung dưới banner; đây không phải trạng thái GPS đang bật/tắt.\n• Hộp thư: mở phong bì để đọc thông báo đầy đủ, khác với dòng chữ chạy.\n\nCác nội dung từ xa cần kết nối mạng để nhận phiên bản mới. Người dùng xem trực tiếp trong app, không phải mở trang quản lý nội dung.\n\nMuốn biết GPS còn phát hay không, xem nút Play/Stop, bảng tuyến và trạng thái dịch vụ. Đừng dùng việc chữ đang chạy hay banner đã tải để kết luận GPS hoạt động đúng.",
+      "media": []
+    },
+    {
+      "id": "xu-ly-loi",
+      "title": "30 · Xử lý khi mất mạng, GPS hoặc dữ liệu chưa đúng",
+      "keywords": "lỗi, mất mạng, đang kết nối, nhảy vị trí, hết phiên, không có xe, không có điểm",
+      "answer": "MẤT MẠNG / ĐANG KẾT NỐI\nKiểm tra Wi‑Fi/dữ liệu di động và thử tải lại sau. Bản đồ mới, tìm đường, điểm đón/trả, xe, cập nhật và nội dung mới đều có thể cần Internet. Điểm đã lưu là dữ liệu cục bộ nhưng nền Maps có thể chưa được tải.\n\nCÓ GHIM NHƯNG GPS KHÁC\nPhân biệt ghim được chọn với chấm vị trí thiết bị. Kiểm tra Play/Stop, quyền mô phỏng, quyền vị trí, pin và xem có tuyến/di chuyển ngẫu nhiên đang bật không. Chọn một chế độ thử mỗi lần.\n\nĐÃ STOP NHƯNG CÒN DI CHUYỂN\nKiểm tra có đang ở chặng quay về không; nếu có, Stop thêm lần nữa. Khi đã dừng hẳn, chờ nguồn GPS thật nhận lại vị trí. App khác có thể còn giữ dữ liệu cũ.\n\nKHÔNG CÓ XE/ĐIỂM\nCó thể do khu vực, dữ liệu nguồn, mạng, phiên hết hạn hoặc giới hạn yêu cầu. Không có kết quả không chứng minh nơi đó không có khách. Đợi rồi thử lại; không bấm liên tục.\n\nKHÔI PHỤC KHÔNG ĐƯỢC\nChọn đúng tệp sao lưu VPro, tải đủ tệp về bộ nhớ máy và thử lại. Đừng chọn ảnh/KML/APK hoặc chỉ đổi đuôi một TXT tùy ý.\n\nKHI GỬI HỖ TRỢ\nGhi thao tác, kết quả mong muốn, kết quả thực tế, Android và thời điểm. Che tên điểm, tọa độ, key và thông tin riêng trước khi gửi ảnh/video.",
       "media": []
     }
   ]
 }
+
